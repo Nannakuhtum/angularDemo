@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "Nannakuhtum",
+    "baseName": "angularDemo",
+    "packageName": "io.github.mk.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "id",
+      "ca",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.1",
+    "packageFolder": "io/github/mk/application",
+    "jwtSecretKey": "d9dfbfffe9337a8c340856c8e4a07ec93772780e",
+    "jhiPrefix": "jhi"
+  }
+}
